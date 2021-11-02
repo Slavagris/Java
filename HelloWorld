@@ -1,0 +1,48 @@
+class HelloWorld{
+		public static void main(String[] args){
+			static void printThreeWords();
+			static void checkSumSign();
+			static void printColor();
+			static void compareNumbers();
+			System.out.println("Hello,World");
+		}
+			
+}
+
+		static void printThreeWords(){
+			System.out.println("Orange");
+			System.out.println("Banana");
+			System.out.println("Apple");
+		}
+		static void checkSumSign(){
+			int a = 5;
+			int b = -5;
+			if (a == > 0){
+				System.out.println("Cумма положительная");
+			}
+			if (b == < 0){
+				System.out.println("Сумма отрицательная");
+			}
+		static void printColor(){
+			int value = 0;
+			int value = 50;
+			int value = 100;
+			if (value = 0){
+				System.out.println("Красный");
+			}	
+			if (value = 50){
+				System.out.println("Желтый");
+			}
+			if (value = 100){
+				System.out.println("Зеленый");
+			}
+		static void compareNumbers(){
+				int a =15;
+				int b =20;
+				if (a>=b){
+					System.out.println("a>=b");
+				}
+				if (a<b){
+					System.out.println("a<b");
+				}
+				
