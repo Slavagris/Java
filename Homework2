@@ -1,0 +1,60 @@
+/**
+* Java 1 Homework2
+*
+* @author Slava Grishin
+* version 04.11.2021
+* list methods main doTask1 doTask2 doTask3 doTask4 doTask5 void boolean
+*/
+class Homework2{
+	public static void main(String[] args) {
+        System.out.println(doTask1(1, 9));
+        doTask2(10);
+        System.out.println(doTask3(-25));
+        doTask4("Slava", 5);
+
+        System.out.println(doTask5(1900)); // Task 5*
+    }
+
+     static boolean doTask1(int a, int b) {
+        int sum = a + b;
+        if (sum >= 10 && sum <=20) {
+            return true;
+        }
+        return false;
+    }
+
+     static void doTask2(int x) {
+        if (x >= 0) {
+            System.out.println("Положительное");
+        }
+        else {
+            System.out.println("Отприцательное");
+        }
+    }
+
+     static boolean doTask3(int x) {
+        if (x >= 0) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+     static void doTask4(String str, int n) {
+        for (int i = 1; i <= n; i++) {
+            System.out.println("[" + i + "]" + " " + str);
+        }
+    }
+
+     static boolean doTask5(int year) {
+        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+            return true;
+        }
+        else {
+            return false;
+        }
+
+    }
+}
+
