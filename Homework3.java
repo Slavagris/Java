@@ -1,3 +1,10 @@
+/**
+* Java Homework Lesson 3
+* 
+* @author Slava Grishin
+* version 08.11.2021
+* list method main int arr doTask1 doTask2 doTask3 doTask4 doTask5 doTask6 doTask7 
+*/
 class Homework3 {
     public static void main(String[] args) {
         int[] arr1 = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0}; // Array for task 1
