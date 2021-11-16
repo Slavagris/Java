@@ -1,3 +1,8 @@
+/**
+* Java lvl 1 Homework5
+*@authot Slava Grishin 
+*@version 16.11.2021
+*/
 class Homework5 {
     public static void main(String[] args) {
         Employee[] employeeArray = new Employee[5];
