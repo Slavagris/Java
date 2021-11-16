@@ -1,3 +1,8 @@
+/**
+* Java lvl 1 Employee
+*@authot Slava Grishin 
+*@version 16.11.2021
+*/
 class Employee {
     String name;
     String post;
