@@ -13,8 +13,8 @@ import javafx.stage.Stage;
 /**
  * This is the place where the threads are dispatched.
  *
- * @author Subhomoy Haldar
- * @version 2016.12.17
+ * @author Slava Grishin
+ * @version 26.11.2021
  */
 public class Main extends Application {
 
