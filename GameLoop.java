@@ -4,8 +4,8 @@ import astrobleme.gui.Painter;
 import javafx.scene.canvas.GraphicsContext;
 
 /**
- * @author Subhomoy Haldar
- * @version 2016.12.17
+ * @author Slava Grishin
+ * @version 26.11.2021
  */
 public class GameLoop implements Runnable {
     private final Grid grid;
