@@ -7,8 +7,8 @@ import java.util.Random;
 /**
  * The positional system for the game. This grid will be rendered in the Canvas.
  *
- * @author Subhomoy Haldar
- * @version 2016.12.17
+ * @author Slava Grishin
+ * @version 26.11.2021
  */
 public class Grid {
     /**
