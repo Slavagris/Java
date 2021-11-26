@@ -9,8 +9,8 @@ import java.util.List;
  * The class that encapsulates the star of the show. Basically it stores it's current
  * state and stuff like position, velocity, length and so on and so forth.
  *
- * @author Subhomoy Haldar
- * @version 2016.12.17
+ * @author Slava Grishin
+ * @version 26.11.2021
  */
 public class Snake {
     public static final Color COLOR = Color.CORNSILK;
